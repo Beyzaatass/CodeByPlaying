@@ -1,4 +1,8 @@
 # CodeByPlaying
+Kurulum
+1. Android projesinde res/values/strings dosyasının içerisindeki ipv4 adlı stringin içerisindeki değeri kendi ipv4 değerinizle değiştirin.
+2. Servis klasörünün içerisindeki app.py dosyasındaki host değerini kendi ipv4 adresinizle değiştirin.
+
 # 2019-2020 Bahar Yarıyılı Okul Projesi
 Proje Özeti
 
