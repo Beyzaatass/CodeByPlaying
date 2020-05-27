@@ -32,4 +32,6 @@
     <string name="makineye_sor">Makineye Sor</string>
     <string name="makinenin_cevab">Makinenin cevabı</string>
     <string name="kodlar_buraya_s_r_kleyiniz">Kodları buraya sürükleyiniz...</string>
+    
+    <string name="ipv4">192.168.1.113</string>
 </resources>
