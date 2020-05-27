@@ -35,9 +35,6 @@ Geliştirilecek sistem için aşağıda gösterilen başlıca teknolojiler haric
 •	Machine Learning Algoritmaları
 
 
-
-
-
 Yazılım Bileşenleri
 Android platform üzerine inşa edilen uygulamada backend kısmı için java dili kullanılmıştır. Proje içerisinde XML tabanlı tasarım sayfaları inşa edilmiş ve her sayfa özelinde bir java dosyasıyla bağlanmıştır. Database olarak SQLLite kullanılmış olup. Sadece kullanıcı spesifik bilgilerin kayıtları tutulmuştur. Proje içerisinde on adet makine öğrenmesi konusu üzerine oluşturulmuş oyun bulunmaktadır. Oyunlar içerisin de machine learning kullanılarak metin ve görsel işleme üzerine işlem gerçekleştirimi söz konusudur. Kullanıcı öncelikle oynamak istediği oyunu belirleyecek; daha sonrasında oyunu kendi bilgilerine göre inşa edecek ve başarılı olması durumunda oyunu oynayabilecektir. Bu bağlamda bakıldığında yaş aralığı düşünülerek işlemler ve tasarımlar ilgi çekici ama basit şekilde inşa edilmiştir. Proje için bağımsız olarak oluşturulan machine learning algoritmaları içerisinde yapılmış olan işlem sonuçlarını .pkl uzantılı dosya şeklinde kayıt altına alınarak flask içerisinde işlem yapmak üzere kullanılmıştır. Android kısmı içerisinde ise machine learning algoritması içerisine girdi olarak gönderilecek veriler birer string olarak atanmış ve REST servis mimarisi kullanılarak flask modülü ile iletişimi sağlanmıştır. Şu an ki iletişim yerel ağ üzerinden olup ileri ki versiyonlarda network üzerine taşınabilir bir alt yapıya sahiptir. Aşağıda verilen akış diyagramında iletişim ve veri yolları gösterilmiştir.
 
