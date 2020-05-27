@@ -49,7 +49,7 @@ public class MansetTahmin extends AppCompatActivity {
     }
 
     private class getResult extends AsyncTask<Void, Void, String> {
-        String host="192.168.1.113";
+        String host=getResources().getString(R.string.ipv4);
         String port="5000";
         String number;
 
